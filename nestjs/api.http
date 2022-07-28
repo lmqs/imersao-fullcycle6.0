@@ -22,3 +22,11 @@ Content-Type: application/json
 {
     "emails": ["user1@test.com", "user2@test.com", "user3@test.com"]
 }
+
+###
+POST http://localhost:3000/mail-list
+Content-Type: application/json
+
+{
+    "emails": ["user7@test.com", "user8@test.com", "user9@test.com"]
+}
